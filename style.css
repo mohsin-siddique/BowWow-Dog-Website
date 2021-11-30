@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/header.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    padding: 0.5% 8%;
+    justify-content: space-between;
+    align-items: center;
+}   
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-family:Arial;
+    color: #302522;
+}
+.nav-style:hover{
+    color:#fff;
+    background-color: rgb(80, 41, 41);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+/* header section end */
+
+
+
+/* Category Section */
+
+.category h2{
+    text-align: center;
+    font-family: verdana;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.category h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+.container-1{
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    box-shadow:0 0 10px gray;
+}
+.item:hover{
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+    justify-content:center;
+}
+
+
+/* End of category area */ 
+
+
+
+
+/* Start of Banner Area */
+
+.banner-area{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 10px;
+    margin-top: 150px;
+
+}
+.banner-area h2{
+    text-align: center;
+    font-family: verdana;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    color: #fff;
+}
+.banner-area h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    
+}
+
+.products{
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.feat-prod{
+    margin: 100px;
+    justify-content: space-between;
+    text-align: center; 
+    color:#fff;
+    font-size: 20px; 
+
+}
+
+    /* End of banner section */
+
+     /* Start of sale Section */
+
+
+.sale{
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+}
+.sale-img{
+    margin: 10px;
+}
+
+    /* End of Sale Section */
+
+
+    /* Start of Brands Section */
+
+.brands{
+        width:100%;
+        background-color:#F8F8F8;
+        height: 100%;
+        background-size: cover;
+        position: relative;
+        margin-top: 6rem;
+    }
+
+.headings{
+    padding-top: 3rem;
+}
+
+#br-h2{
+        text-align: center;
+        font-family: verdana;
+        color: #000;
+        font-size: 2.5rem;
+
+}
+
+#br-h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #000;
+}
+.brands-icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.sale-imgs{
+    margin: 25px;
+    width: 14rem;
+    height: 7rem;
+
+}
+
+/* End of Brands Section */
+
+/* start of coll&brand section */
+.col-bed{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+#col-img1{
+    position: relative;
+}
+#col-img2{
+    position: absolute;
+    top: 360%;
+    left: 25.5%;
+    
+}
+#col-img3{
+    position: relative;
+}
+#col-img4{
+    position: absolute;
+    top: 363%;
+    left: 63%;
+}
+#head-1{
+    color: rgb(80, 41, 41);
+    font-weight: bold;
+    position: absolute;
+    left: 20rem;
+    top: 154rem;
+
+}
+#head-2{
+    color: rgb(80, 41, 41);
+    font-weight: bold;
+    position: absolute;
+    left: 60rem;
+    top: 154rem;
+    
+}
+
+
+
+
+/* end of coll&brand section */
+
+/* Start of blogs secion */
+
+.blogs h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #000;
+}
+.blogs h2{
+    text-align: center;
+    font-family: verdana;
+    color: #000;
+    font-size: 2.5rem;
+
+}
+.blogs{
+     margin-top: 7rem;
+}
+
+.blog-con{
+    
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+blog-con h3,p{
+    margin-top:1rem;
+}
+.blog-sec{
+    
+    margin: 2px;
+}
+
+
+
+/* End of Blog Section */
+
+/* Start of Services Section */
+
+.services-con{
+
+    margin-top: 3rem;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+   
+}
+.serv{
+    border: 3px solid #302522;
+    margin: 1rem;
+    padding: 20px;
+    border-radius: 30px;
+    width: 15rem;
+    height: auto;
+    text-align: center;
+}
+
+/* End of Services section */
+
+.footer{
+
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+    padding: 10px;
+
+    
+}
+.footer div{
+    height: auto;
+
+}
+.foot-sections1{
+    width: 25%;
+    height:auto;
+}
+.foot-sections2{
+    width: 25%;
+    height:auto;
+}
+.foot-sections3{
+   
+    width: 25%;
+    height:auto;
+}
+.foot-sections4{
+  
+    width: 25%;
+    height:auto;
+}
+.email-field{
+    border: 1px solid #493313;
+    border-radius: 5rem;
+    padding: 10px 10px;
+    background-color: #493313;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 95%;
+    margin: 10px auto;
+    flex-direction: row;
+}
+.email-field input{
+    line-height: 100%;
+    color: #fff;
+    border: none;
+    background-color: #493313;
+    min-width: 270px;
+    font-size: 1.1rem;
+    width: 100%;
+    border-radius:3rem ;
+
+}
+.email-field input:focus{
+    outline: none;
+   
+}
+    
+    
+
+
+/* End of footer section */
+
+.copywrite{
+    
+    line-height: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    
+}
+
+
+
+@media screen and (max-width: 480px){
+    .footer{
+        flex-direction: column;
+        font-size: 2rem;
+        height: auto;
+        width: 100%;
+    }
+    .copywrite{
+        font-size: 1rem;
+        margin: 15px;
+        padding: 10px;
+        line-height: 2;
+        text-align: center;
+    
+}
+}
+
+@media screen and (max-width: 1400px){
+.foot-sections1{
+    height: auto;
+    width: auto;
+}
+
+    
+}
+
